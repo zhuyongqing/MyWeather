@@ -33,15 +33,15 @@
         [_locationManager requestWhenInUseAuthorization];
     }
     
-        //设置代理
-        _locationManager.delegate=obj;
-        //设置定位精度
-        _locationManager.desiredAccuracy=kCLLocationAccuracyBest;
-        //定位频率,每隔多少米定位一次
-        CLLocationDistance distance=100000.0;//十米定位一次
-        _locationManager.distanceFilter=distance;
-        //启动跟踪定位
-        [_locationManager startUpdatingLocation];
+    //设置代理
+    _locationManager.delegate=obj;
+    //设置定位精度
+    _locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+    //定位频率,每隔多少米定位一次
+    CLLocationDistance distance=100000.0;//十米定位一次
+    _locationManager.distanceFilter=distance;
+    //启动跟踪定位
+    [_locationManager startUpdatingLocation];
     
     _geocoder=[[CLGeocoder alloc]init];
     

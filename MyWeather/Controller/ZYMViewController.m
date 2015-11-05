@@ -206,7 +206,9 @@
   }];
     
     //从数组中删除
-    [self.cityArr removeObjectAtIndex:self.pageControl.currentPage];
+    if (self.cityArr.count>self.pageControl.currentPage) {
+         [self.cityArr removeObjectAtIndex:self.pageControl.currentPage];
+    }
     
     //改变 容量
     self.scrollView.contentSize = CGSizeMake(self.scrollView.contentSize.width-self.view.width,0);
