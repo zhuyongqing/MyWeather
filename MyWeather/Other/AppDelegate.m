@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZYMViewController.h"
 @interface AppDelegate ()
+
+@property(nonatomic,strong) ZYMViewController *main;
 
 @end
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.main = [[ZYMViewController alloc] init];
+    
+    self.window.rootViewController = self.main;
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

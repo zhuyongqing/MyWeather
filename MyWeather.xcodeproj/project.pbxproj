@@ -8,13 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		EF1ADBFA1BE758A800BF1E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADBF91BE758A800BF1E75 /* main.m */; };
-		EF1ADBFD1BE758A800BF1E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADBFC1BE758A800BF1E75 /* AppDelegate.m */; };
-		EF1ADC001BE758A800BF1E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADBFF1BE758A800BF1E75 /* ViewController.m */; };
 		EF1ADC031BE758A800BF1E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC011BE758A800BF1E75 /* Main.storyboard */; };
 		EF1ADC051BE758A800BF1E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC041BE758A800BF1E75 /* Assets.xcassets */; };
 		EF1ADC081BE758A800BF1E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC061BE758A800BF1E75 /* LaunchScreen.storyboard */; };
 		EF1ADC131BE758A800BF1E75 /* MyWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC121BE758A800BF1E75 /* MyWeatherTests.m */; };
 		EF1ADC1E1BE758A800BF1E75 /* MyWeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC1D1BE758A800BF1E75 /* MyWeatherUITests.m */; };
+		EF1ADC391BE7592800BF1E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC351BE7592800BF1E75 /* AppDelegate.m */; };
+		EF1ADC3B1BE7594E00BF1E75 /* gradient2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC3A1BE7594E00BF1E75 /* gradient2@2x.png */; };
+		EF1ADC3D1BE7595500BF1E75 /* gradient3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC3C1BE7595500BF1E75 /* gradient3@2x.png */; };
+		EF1ADC3F1BE7595B00BF1E75 /* gradient4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC3E1BE7595B00BF1E75 /* gradient4@2x.png */; };
+		EF1ADC411BE7596100BF1E75 /* gradient5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC401BE7596100BF1E75 /* gradient5@2x.png */; };
+		EF1ADC431BE7596800BF1E75 /* gradient1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC421BE7596800BF1E75 /* gradient1@2x.png */; };
+		EF1ADC491BE75A4F00BF1E75 /* ZYWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC481BE75A4F00BF1E75 /* ZYWeatherView.m */; };
+		EF1ADC4C1BE75CAA00BF1E75 /* ZYLocationManger.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC4B1BE75CAA00BF1E75 /* ZYLocationManger.m */; };
+		EF1ADC4F1BE75E0600BF1E75 /* ZYWeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC4E1BE75E0600BF1E75 /* ZYWeatherData.m */; };
+		EF1ADC701BE7629F00BF1E75 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC581BE7629F00BF1E75 /* AFHTTPRequestOperation.m */; };
+		EF1ADC711BE7629F00BF1E75 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC5A1BE7629F00BF1E75 /* AFHTTPRequestOperationManager.m */; };
+		EF1ADC721BE7629F00BF1E75 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC5C1BE7629F00BF1E75 /* AFHTTPSessionManager.m */; };
+		EF1ADC731BE7629F00BF1E75 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC5F1BE7629F00BF1E75 /* AFNetworkReachabilityManager.m */; };
+		EF1ADC741BE7629F00BF1E75 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC611BE7629F00BF1E75 /* AFSecurityPolicy.m */; };
+		EF1ADC751BE7629F00BF1E75 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC631BE7629F00BF1E75 /* AFURLConnectionOperation.m */; };
+		EF1ADC761BE7629F00BF1E75 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC651BE7629F00BF1E75 /* AFURLRequestSerialization.m */; };
+		EF1ADC771BE7629F00BF1E75 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC671BE7629F00BF1E75 /* AFURLResponseSerialization.m */; };
+		EF1ADC781BE7629F00BF1E75 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC691BE7629F00BF1E75 /* AFURLSessionManager.m */; };
+		EF1ADC791BE7629F00BF1E75 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC6C1BE7629F00BF1E75 /* MBProgressHUD+Add.m */; };
+		EF1ADC7A1BE7629F00BF1E75 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF1ADC6D1BE7629F00BF1E75 /* MBProgressHUD.bundle */; };
+		EF1ADC7B1BE7629F00BF1E75 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC6F1BE7629F00BF1E75 /* MBProgressHUD.m */; };
+		EF1ADC821BE762D000BF1E75 /* UIColor+UIColor_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC7E1BE762D000BF1E75 /* UIColor+UIColor_Hex.m */; };
+		EF1ADC831BE762D000BF1E75 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC801BE762D000BF1E75 /* UIView+ITTAdditions.m */; };
+		EF1ADC861BE762E400BF1E75 /* ZYHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ADC851BE762E400BF1E75 /* ZYHTTPTool.m */; };
+		EF20CEA01BE9C9C400499756 /* yuandian1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF20CE9E1BE9C9C400499756 /* yuandian1@2x.png */; };
+		EF20CEA11BE9C9C400499756 /* yuandian2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF20CE9F1BE9C9C400499756 /* yuandian2@2x.png */; };
+		EF20CEA31BE9CE3700499756 /* addbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF20CEA21BE9CE3700499756 /* addbutton@2x.png */; };
+		EF20CEA61BE9D2F600499756 /* ZYAddViewControll.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20CEA51BE9D2F600499756 /* ZYAddViewControll.m */; };
+		EF247D411BE85E82007A60AE /* ZYMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF247D401BE85E82007A60AE /* ZYMViewController.m */; };
+		EF270F3A1BEB00DC002F8426 /* 什么天气.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2A1BEB00DC002F8426 /* 什么天气.png */; };
+		EF270F3B1BEB00DC002F8426 /* duoyun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2B1BEB00DC002F8426 /* duoyun@2x.png */; };
+		EF270F3C1BEB00DC002F8426 /* dayu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2C1BEB00DC002F8426 /* dayu@2x.png */; };
+		EF270F3D1BEB00DC002F8426 /* xiaoyu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2D1BEB00DC002F8426 /* xiaoyu@2x.png */; };
+		EF270F3E1BEB00DC002F8426 /* xiaoxue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2E1BEB00DC002F8426 /* xiaoxue@2x.png */; };
+		EF270F3F1BEB00DC002F8426 /* qing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F2F1BEB00DC002F8426 /* qing@2x.png */; };
+		EF270F401BEB00DC002F8426 /* qingjianduoyun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F301BEB00DC002F8426 /* qingjianduoyun@2x.png */; };
+		EF270F411BEB00DC002F8426 /* 暴雨-.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F311BEB00DC002F8426 /* 暴雨-.png */; };
+		EF270F421BEB00DC002F8426 /* baoyu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F321BEB00DC002F8426 /* baoyu@2x.png */; };
+		EF270F431BEB00DC002F8426 /* 闪电.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F331BEB00DC002F8426 /* 闪电.png */; };
+		EF270F441BEB00DC002F8426 /* yin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F341BEB00DC002F8426 /* yin@2x.png */; };
+		EF270F451BEB00DC002F8426 /* yinzhuanqing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F351BEB00DC002F8426 /* yinzhuanqing@2x.png */; };
+		EF270F461BEB00DC002F8426 /* 雨夹雪-.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F361BEB00DC002F8426 /* 雨夹雪-.png */; };
+		EF270F471BEB00DC002F8426 /* yujiaxue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F371BEB00DC002F8426 /* yujiaxue@2x.png */; };
+		EF270F481BEB00DC002F8426 /* yuzhuanqing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F381BEB00DC002F8426 /* yuzhuanqing@2x.png */; };
+		EF270F491BEB00DC002F8426 /* zhenyu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF270F391BEB00DC002F8426 /* zhenyu@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +80,6 @@
 /* Begin PBXFileReference section */
 		EF1ADBF51BE758A800BF1E75 /* MyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1ADBF91BE758A800BF1E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF1ADBFB1BE758A800BF1E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EF1ADBFC1BE758A800BF1E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF1ADBFE1BE758A800BF1E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF1ADBFF1BE758A800BF1E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF1ADC021BE758A800BF1E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF1ADC041BE758A800BF1E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF1ADC071BE758A800BF1E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +90,72 @@
 		EF1ADC191BE758A800BF1E75 /* MyWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1ADC1D1BE758A800BF1E75 /* MyWeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeatherUITests.m; sourceTree = "<group>"; };
 		EF1ADC1F1BE758A800BF1E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ADC341BE7592800BF1E75 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1ADC351BE7592800BF1E75 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1ADC3A1BE7594E00BF1E75 /* gradient2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient2@2x.png"; sourceTree = "<group>"; };
+		EF1ADC3C1BE7595500BF1E75 /* gradient3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient3@2x.png"; sourceTree = "<group>"; };
+		EF1ADC3E1BE7595B00BF1E75 /* gradient4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient4@2x.png"; sourceTree = "<group>"; };
+		EF1ADC401BE7596100BF1E75 /* gradient5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient5@2x.png"; sourceTree = "<group>"; };
+		EF1ADC421BE7596800BF1E75 /* gradient1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient1@2x.png"; sourceTree = "<group>"; };
+		EF1ADC471BE75A4F00BF1E75 /* ZYWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeatherView.h; sourceTree = "<group>"; };
+		EF1ADC481BE75A4F00BF1E75 /* ZYWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeatherView.m; sourceTree = "<group>"; };
+		EF1ADC4A1BE75CAA00BF1E75 /* ZYLocationManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLocationManger.h; sourceTree = "<group>"; };
+		EF1ADC4B1BE75CAA00BF1E75 /* ZYLocationManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLocationManger.m; sourceTree = "<group>"; };
+		EF1ADC4D1BE75E0600BF1E75 /* ZYWeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeatherData.h; sourceTree = "<group>"; };
+		EF1ADC4E1BE75E0600BF1E75 /* ZYWeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeatherData.m; sourceTree = "<group>"; };
+		EF1ADC571BE7629F00BF1E75 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EF1ADC581BE7629F00BF1E75 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EF1ADC591BE7629F00BF1E75 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		EF1ADC5A1BE7629F00BF1E75 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		EF1ADC5B1BE7629F00BF1E75 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EF1ADC5C1BE7629F00BF1E75 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		EF1ADC5D1BE7629F00BF1E75 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EF1ADC5E1BE7629F00BF1E75 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EF1ADC5F1BE7629F00BF1E75 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EF1ADC601BE7629F00BF1E75 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EF1ADC611BE7629F00BF1E75 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF1ADC621BE7629F00BF1E75 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		EF1ADC631BE7629F00BF1E75 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		EF1ADC641BE7629F00BF1E75 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		EF1ADC651BE7629F00BF1E75 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		EF1ADC661BE7629F00BF1E75 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EF1ADC671BE7629F00BF1E75 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EF1ADC681BE7629F00BF1E75 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		EF1ADC691BE7629F00BF1E75 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EF1ADC6B1BE7629F00BF1E75 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		EF1ADC6C1BE7629F00BF1E75 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		EF1ADC6D1BE7629F00BF1E75 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EF1ADC6E1BE7629F00BF1E75 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EF1ADC6F1BE7629F00BF1E75 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EF1ADC7D1BE762D000BF1E75 /* UIColor+UIColor_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_Hex.h"; sourceTree = "<group>"; };
+		EF1ADC7E1BE762D000BF1E75 /* UIColor+UIColor_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_Hex.m"; sourceTree = "<group>"; };
+		EF1ADC7F1BE762D000BF1E75 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
+		EF1ADC801BE762D000BF1E75 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
+		EF1ADC841BE762E400BF1E75 /* ZYHTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTTPTool.h; sourceTree = "<group>"; };
+		EF1ADC851BE762E400BF1E75 /* ZYHTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTTPTool.m; sourceTree = "<group>"; };
+		EF20CE9E1BE9C9C400499756 /* yuandian1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuandian1@2x.png"; sourceTree = "<group>"; };
+		EF20CE9F1BE9C9C400499756 /* yuandian2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuandian2@2x.png"; sourceTree = "<group>"; };
+		EF20CEA21BE9CE3700499756 /* addbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addbutton@2x.png"; sourceTree = "<group>"; };
+		EF20CEA41BE9D2F600499756 /* ZYAddViewControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAddViewControll.h; sourceTree = "<group>"; };
+		EF20CEA51BE9D2F600499756 /* ZYAddViewControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAddViewControll.m; sourceTree = "<group>"; };
+		EF247D3F1BE85E82007A60AE /* ZYMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMViewController.h; sourceTree = "<group>"; };
+		EF247D401BE85E82007A60AE /* ZYMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMViewController.m; sourceTree = "<group>"; };
+		EF270F2A1BEB00DC002F8426 /* 什么天气.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "什么天气.png"; sourceTree = "<group>"; };
+		EF270F2B1BEB00DC002F8426 /* duoyun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duoyun@2x.png"; sourceTree = "<group>"; };
+		EF270F2C1BEB00DC002F8426 /* dayu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dayu@2x.png"; sourceTree = "<group>"; };
+		EF270F2D1BEB00DC002F8426 /* xiaoyu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoyu@2x.png"; sourceTree = "<group>"; };
+		EF270F2E1BEB00DC002F8426 /* xiaoxue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoxue@2x.png"; sourceTree = "<group>"; };
+		EF270F2F1BEB00DC002F8426 /* qing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qing@2x.png"; sourceTree = "<group>"; };
+		EF270F301BEB00DC002F8426 /* qingjianduoyun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qingjianduoyun@2x.png"; sourceTree = "<group>"; };
+		EF270F311BEB00DC002F8426 /* 暴雨-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暴雨-.png"; sourceTree = "<group>"; };
+		EF270F321BEB00DC002F8426 /* baoyu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baoyu@2x.png"; sourceTree = "<group>"; };
+		EF270F331BEB00DC002F8426 /* 闪电.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪电.png"; sourceTree = "<group>"; };
+		EF270F341BEB00DC002F8426 /* yin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yin@2x.png"; sourceTree = "<group>"; };
+		EF270F351BEB00DC002F8426 /* yinzhuanqing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yinzhuanqing@2x.png"; sourceTree = "<group>"; };
+		EF270F361BEB00DC002F8426 /* 雨夹雪-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雨夹雪-.png"; sourceTree = "<group>"; };
+		EF270F371BEB00DC002F8426 /* yujiaxue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yujiaxue@2x.png"; sourceTree = "<group>"; };
+		EF270F381BEB00DC002F8426 /* yuzhuanqing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuzhuanqing@2x.png"; sourceTree = "<group>"; };
+		EF270F391BEB00DC002F8426 /* zhenyu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhenyu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +206,11 @@
 		EF1ADBF71BE758A800BF1E75 /* MyWeather */ = {
 			isa = PBXGroup;
 			children = (
-				EF1ADBFB1BE758A800BF1E75 /* AppDelegate.h */,
-				EF1ADBFC1BE758A800BF1E75 /* AppDelegate.m */,
-				EF1ADBFE1BE758A800BF1E75 /* ViewController.h */,
-				EF1ADBFF1BE758A800BF1E75 /* ViewController.m */,
+				EF1ADC2E1BE7592800BF1E75 /* Controller */,
+				EF1ADC371BE7592800BF1E75 /* View */,
+				EF1ADC321BE7592800BF1E75 /* Model */,
+				EF1ADC331BE7592800BF1E75 /* Other */,
+				EF1ADC311BE7592800BF1E75 /* Image */,
 				EF1ADC011BE758A800BF1E75 /* Main.storyboard */,
 				EF1ADC041BE758A800BF1E75 /* Assets.xcassets */,
 				EF1ADC061BE758A800BF1E75 /* LaunchScreen.storyboard */,
@@ -138,6 +244,155 @@
 				EF1ADC1F1BE758A800BF1E75 /* Info.plist */,
 			);
 			path = MyWeatherUITests;
+			sourceTree = "<group>";
+		};
+		EF1ADC2E1BE7592800BF1E75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF247D3F1BE85E82007A60AE /* ZYMViewController.h */,
+				EF247D401BE85E82007A60AE /* ZYMViewController.m */,
+				EF20CEA41BE9D2F600499756 /* ZYAddViewControll.h */,
+				EF20CEA51BE9D2F600499756 /* ZYAddViewControll.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF1ADC311BE7592800BF1E75 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EF270F291BEB00DC002F8426 /* 天气 */,
+				EF20CEA21BE9CE3700499756 /* addbutton@2x.png */,
+				EF20CE9E1BE9C9C400499756 /* yuandian1@2x.png */,
+				EF20CE9F1BE9C9C400499756 /* yuandian2@2x.png */,
+				EF1ADC3A1BE7594E00BF1E75 /* gradient2@2x.png */,
+				EF1ADC3C1BE7595500BF1E75 /* gradient3@2x.png */,
+				EF1ADC3E1BE7595B00BF1E75 /* gradient4@2x.png */,
+				EF1ADC401BE7596100BF1E75 /* gradient5@2x.png */,
+				EF1ADC421BE7596800BF1E75 /* gradient1@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EF1ADC321BE7592800BF1E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC4A1BE75CAA00BF1E75 /* ZYLocationManger.h */,
+				EF1ADC4B1BE75CAA00BF1E75 /* ZYLocationManger.m */,
+				EF1ADC4D1BE75E0600BF1E75 /* ZYWeatherData.h */,
+				EF1ADC4E1BE75E0600BF1E75 /* ZYWeatherData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1ADC331BE7592800BF1E75 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC341BE7592800BF1E75 /* AppDelegate.h */,
+				EF1ADC351BE7592800BF1E75 /* AppDelegate.m */,
+				EF1ADC361BE7592800BF1E75 /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EF1ADC361BE7592800BF1E75 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC7C1BE762CF00BF1E75 /* Categroy */,
+				EF1ADC811BE762D000BF1E75 /* Tool */,
+				EF1ADC561BE7629F00BF1E75 /* AFNetworking */,
+				EF1ADC6A1BE7629F00BF1E75 /* MBProgressHUD-0.9.1 */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EF1ADC371BE7592800BF1E75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC471BE75A4F00BF1E75 /* ZYWeatherView.h */,
+				EF1ADC481BE75A4F00BF1E75 /* ZYWeatherView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1ADC561BE7629F00BF1E75 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC571BE7629F00BF1E75 /* AFHTTPRequestOperation.h */,
+				EF1ADC581BE7629F00BF1E75 /* AFHTTPRequestOperation.m */,
+				EF1ADC591BE7629F00BF1E75 /* AFHTTPRequestOperationManager.h */,
+				EF1ADC5A1BE7629F00BF1E75 /* AFHTTPRequestOperationManager.m */,
+				EF1ADC5B1BE7629F00BF1E75 /* AFHTTPSessionManager.h */,
+				EF1ADC5C1BE7629F00BF1E75 /* AFHTTPSessionManager.m */,
+				EF1ADC5D1BE7629F00BF1E75 /* AFNetworking.h */,
+				EF1ADC5E1BE7629F00BF1E75 /* AFNetworkReachabilityManager.h */,
+				EF1ADC5F1BE7629F00BF1E75 /* AFNetworkReachabilityManager.m */,
+				EF1ADC601BE7629F00BF1E75 /* AFSecurityPolicy.h */,
+				EF1ADC611BE7629F00BF1E75 /* AFSecurityPolicy.m */,
+				EF1ADC621BE7629F00BF1E75 /* AFURLConnectionOperation.h */,
+				EF1ADC631BE7629F00BF1E75 /* AFURLConnectionOperation.m */,
+				EF1ADC641BE7629F00BF1E75 /* AFURLRequestSerialization.h */,
+				EF1ADC651BE7629F00BF1E75 /* AFURLRequestSerialization.m */,
+				EF1ADC661BE7629F00BF1E75 /* AFURLResponseSerialization.h */,
+				EF1ADC671BE7629F00BF1E75 /* AFURLResponseSerialization.m */,
+				EF1ADC681BE7629F00BF1E75 /* AFURLSessionManager.h */,
+				EF1ADC691BE7629F00BF1E75 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		EF1ADC6A1BE7629F00BF1E75 /* MBProgressHUD-0.9.1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC6B1BE7629F00BF1E75 /* MBProgressHUD+Add.h */,
+				EF1ADC6C1BE7629F00BF1E75 /* MBProgressHUD+Add.m */,
+				EF1ADC6D1BE7629F00BF1E75 /* MBProgressHUD.bundle */,
+				EF1ADC6E1BE7629F00BF1E75 /* MBProgressHUD.h */,
+				EF1ADC6F1BE7629F00BF1E75 /* MBProgressHUD.m */,
+			);
+			path = "MBProgressHUD-0.9.1";
+			sourceTree = "<group>";
+		};
+		EF1ADC7C1BE762CF00BF1E75 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC7D1BE762D000BF1E75 /* UIColor+UIColor_Hex.h */,
+				EF1ADC7E1BE762D000BF1E75 /* UIColor+UIColor_Hex.m */,
+				EF1ADC7F1BE762D000BF1E75 /* UIView+ITTAdditions.h */,
+				EF1ADC801BE762D000BF1E75 /* UIView+ITTAdditions.m */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		EF1ADC811BE762D000BF1E75 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ADC841BE762E400BF1E75 /* ZYHTTPTool.h */,
+				EF1ADC851BE762E400BF1E75 /* ZYHTTPTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EF270F291BEB00DC002F8426 /* 天气 */ = {
+			isa = PBXGroup;
+			children = (
+				EF270F2A1BEB00DC002F8426 /* 什么天气.png */,
+				EF270F2B1BEB00DC002F8426 /* duoyun@2x.png */,
+				EF270F2C1BEB00DC002F8426 /* dayu@2x.png */,
+				EF270F2D1BEB00DC002F8426 /* xiaoyu@2x.png */,
+				EF270F2E1BEB00DC002F8426 /* xiaoxue@2x.png */,
+				EF270F2F1BEB00DC002F8426 /* qing@2x.png */,
+				EF270F301BEB00DC002F8426 /* qingjianduoyun@2x.png */,
+				EF270F311BEB00DC002F8426 /* 暴雨-.png */,
+				EF270F321BEB00DC002F8426 /* baoyu@2x.png */,
+				EF270F331BEB00DC002F8426 /* 闪电.png */,
+				EF270F341BEB00DC002F8426 /* yin@2x.png */,
+				EF270F351BEB00DC002F8426 /* yinzhuanqing@2x.png */,
+				EF270F361BEB00DC002F8426 /* 雨夹雪-.png */,
+				EF270F371BEB00DC002F8426 /* yujiaxue@2x.png */,
+				EF270F381BEB00DC002F8426 /* yuzhuanqing@2x.png */,
+				EF270F391BEB00DC002F8426 /* zhenyu@2x.png */,
+			);
+			path = "天气";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +457,7 @@
 		EF1ADBED1BE758A800BF1E75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZY;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = zhuyongqing;
 				TargetAttributes = {
@@ -243,9 +499,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF270F3D1BEB00DC002F8426 /* xiaoyu@2x.png in Resources */,
+				EF20CEA31BE9CE3700499756 /* addbutton@2x.png in Resources */,
+				EF1ADC411BE7596100BF1E75 /* gradient5@2x.png in Resources */,
+				EF270F411BEB00DC002F8426 /* 暴雨-.png in Resources */,
+				EF1ADC3D1BE7595500BF1E75 /* gradient3@2x.png in Resources */,
 				EF1ADC081BE758A800BF1E75 /* LaunchScreen.storyboard in Resources */,
+				EF270F451BEB00DC002F8426 /* yinzhuanqing@2x.png in Resources */,
+				EF20CEA11BE9C9C400499756 /* yuandian2@2x.png in Resources */,
+				EF270F3C1BEB00DC002F8426 /* dayu@2x.png in Resources */,
+				EF1ADC3B1BE7594E00BF1E75 /* gradient2@2x.png in Resources */,
+				EF270F3B1BEB00DC002F8426 /* duoyun@2x.png in Resources */,
+				EF270F441BEB00DC002F8426 /* yin@2x.png in Resources */,
+				EF20CEA01BE9C9C400499756 /* yuandian1@2x.png in Resources */,
+				EF1ADC431BE7596800BF1E75 /* gradient1@2x.png in Resources */,
+				EF270F3E1BEB00DC002F8426 /* xiaoxue@2x.png in Resources */,
+				EF270F3F1BEB00DC002F8426 /* qing@2x.png in Resources */,
+				EF270F491BEB00DC002F8426 /* zhenyu@2x.png in Resources */,
+				EF270F431BEB00DC002F8426 /* 闪电.png in Resources */,
+				EF1ADC7A1BE7629F00BF1E75 /* MBProgressHUD.bundle in Resources */,
+				EF1ADC3F1BE7595B00BF1E75 /* gradient4@2x.png in Resources */,
+				EF270F461BEB00DC002F8426 /* 雨夹雪-.png in Resources */,
+				EF270F421BEB00DC002F8426 /* baoyu@2x.png in Resources */,
 				EF1ADC051BE758A800BF1E75 /* Assets.xcassets in Resources */,
 				EF1ADC031BE758A800BF1E75 /* Main.storyboard in Resources */,
+				EF270F471BEB00DC002F8426 /* yujiaxue@2x.png in Resources */,
+				EF270F481BEB00DC002F8426 /* yuzhuanqing@2x.png in Resources */,
+				EF270F3A1BEB00DC002F8426 /* 什么天气.png in Resources */,
+				EF270F401BEB00DC002F8426 /* qingjianduoyun@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +551,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1ADC001BE758A800BF1E75 /* ViewController.m in Sources */,
-				EF1ADBFD1BE758A800BF1E75 /* AppDelegate.m in Sources */,
+				EF1ADC741BE7629F00BF1E75 /* AFSecurityPolicy.m in Sources */,
+				EF1ADC491BE75A4F00BF1E75 /* ZYWeatherView.m in Sources */,
+				EF1ADC731BE7629F00BF1E75 /* AFNetworkReachabilityManager.m in Sources */,
+				EF1ADC861BE762E400BF1E75 /* ZYHTTPTool.m in Sources */,
+				EF1ADC751BE7629F00BF1E75 /* AFURLConnectionOperation.m in Sources */,
+				EF1ADC701BE7629F00BF1E75 /* AFHTTPRequestOperation.m in Sources */,
+				EF1ADC721BE7629F00BF1E75 /* AFHTTPSessionManager.m in Sources */,
+				EF247D411BE85E82007A60AE /* ZYMViewController.m in Sources */,
+				EF1ADC7B1BE7629F00BF1E75 /* MBProgressHUD.m in Sources */,
+				EF1ADC761BE7629F00BF1E75 /* AFURLRequestSerialization.m in Sources */,
+				EF1ADC781BE7629F00BF1E75 /* AFURLSessionManager.m in Sources */,
+				EF1ADC4F1BE75E0600BF1E75 /* ZYWeatherData.m in Sources */,
+				EF1ADC711BE7629F00BF1E75 /* AFHTTPRequestOperationManager.m in Sources */,
+				EF20CEA61BE9D2F600499756 /* ZYAddViewControll.m in Sources */,
+				EF1ADC821BE762D000BF1E75 /* UIColor+UIColor_Hex.m in Sources */,
 				EF1ADBFA1BE758A800BF1E75 /* main.m in Sources */,
+				EF1ADC771BE7629F00BF1E75 /* AFURLResponseSerialization.m in Sources */,
+				EF1ADC4C1BE75CAA00BF1E75 /* ZYLocationManger.m in Sources */,
+				EF1ADC831BE762D000BF1E75 /* UIView+ITTAdditions.m in Sources */,
+				EF1ADC791BE7629F00BF1E75 /* MBProgressHUD+Add.m in Sources */,
+				EF1ADC391BE7592800BF1E75 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,6 +713,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyongqing.MyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyongqing.MyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +799,7 @@
 				EF1ADC241BE758A800BF1E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF1ADC251BE758A800BF1E75 /* Build configuration list for PBXNativeTarget "MyWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +808,7 @@
 				EF1ADC271BE758A800BF1E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF1ADC281BE758A800BF1E75 /* Build configuration list for PBXNativeTarget "MyWeatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +817,7 @@
 				EF1ADC2A1BE758A800BF1E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
