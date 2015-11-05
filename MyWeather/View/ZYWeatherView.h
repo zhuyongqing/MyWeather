@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+////天气的主视图
 @interface ZYWeatherView : UIView
 
-@property(nonatomic,strong) UIImageView *backImage;
+@property(nonatomic,strong) UIImageView *backImage;  //主背景
 
 @property(nonatomic,strong) UIImageView *wetherImage; //天气状况图片
 
@@ -29,7 +29,7 @@
 @end
 
 
-/////////
+/////////每天的天气
 @class ZYWeatherData;
 @interface ZYWeekWeather : UIView
 
@@ -38,7 +38,7 @@
 @end
 
 
-///////
+///////最低最高天气圆圈
 @interface ZYTmpView : UIView
 
 - (id)initWithFrame:(CGRect)frame withData:(ZYWeatherData *)weather;

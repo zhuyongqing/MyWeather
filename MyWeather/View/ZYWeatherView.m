@@ -21,6 +21,8 @@
 
 #define kWidth 100
 
+#pragma mark - 天气主视图
+
 @interface ZYWeatherView()
 @property(nonatomic,strong) UILabel *tmpLabel;
 @property(nonatomic,strong) UIView *backView;
@@ -303,12 +305,12 @@
     if (isTmpView) {
         if (!_tmpView) {
             _tmpView = [[ZYTmpView alloc] initWithFrame:CGRectMake(-10,20,kTmpHeight,kTmpHeight) withData:_weather];
-            NSLog(@"%@",_weather.weather);
             _tmpView.alpha = 0;
             [self addSubview:_tmpView];
         }
+        //展示动画
         [_tmpView show];
-        
+        //设置动画状态
         isTmpView = NO;
     }else
     {

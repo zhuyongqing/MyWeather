@@ -21,6 +21,8 @@
 #define LIGHT_FONT      @"HelveticaNeue-Light"
 #define ULTRALIGHT_FONT @"HelveticaNeue-UltraLight"
 
+#define kTag 10
+
 @interface ZYMViewController ()<CLLocationManagerDelegate,UIScrollViewDelegate>
 {
      ZYLocationManger *_location;
@@ -55,7 +57,7 @@
     
     //页数
     [self.view addSubview:self.pageControl];
-    //加号按钮
+    //加 减按钮
     [self addBtn];
    
 }
@@ -67,7 +69,7 @@
     //加载每一个城市
     for (int i = 1; i<=self.cityArr.count; i++) {
         [self buildweatherViewWidth:i*self.view.width];
-        [self addWeatherViewWithCity:self.cityArr[i-1] andWithTag:i*10];
+        [self addWeatherViewWithCity:self.cityArr[i-1] andWithTag:i*kTag];
     }
     
     [self.scrollView setContentOffset:CGPointMake(0, 0) animated:YES];
@@ -135,12 +137,12 @@
         //      [btn setTitle:parms.locality forState:UIControlStateNormal];
         //[@"HeWeather data service 3.0"][0][@"daily_forecast"][0]
         NSString *str = [parms.locality substringToIndex:parms.locality.length-1];
-            if (![self isLikeWith:str]) {
-             [self.cityArr addObject:str];
-            [[NSUserDefaults standardUserDefaults] setObject:self.cityArr forKey:str];
-            [self addWeatherViewWithCity:str andWithTag:self.cityArr.count*10];
-           
-        }
+        //判断是否相同
+        if (![self isLikeWith:str] && str != nil) {
+         [self.cityArr addObject:str];
+        [[NSUserDefaults standardUserDefaults] setObject:self.cityArr forKey:str];
+        [self addWeatherViewWithCity:str andWithTag:self.cityArr.count*kTag];
+    }
       
     }];
     //停止更新
@@ -189,7 +191,7 @@
   [self.cityArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
       if (idx == self.pageControl.currentPage) {
           //取出当前的view  删除
-          ZYWeatherView *weather = [self.scrollView viewWithTag:(self.pageControl.currentPage+1)*10];
+          ZYWeatherView *weather = [self.scrollView viewWithTag:(self.pageControl.currentPage+1)*kTag];
           [weather removeFromSuperview];
       }
      else if(idx > self.pageControl.currentPage)
@@ -220,6 +222,7 @@
 {
     ZYAddViewControll *add = [[ZYAddViewControll alloc] init];
     
+    //从上个页面 返回城市名称
     [self presentViewController:add animated:YES completion:^{
         [add seachCityName:^(NSString *city) {
             if (![self isLikeWith:city]) {
@@ -228,14 +231,13 @@
                 //创建天气
                 [self buildweatherViewWidth:self.view.width+self.scrollView.contentSize.width];
                 //请求数据
-                [self addWeatherViewWithCity:city andWithTag:self.cityArr.count*10];
+                [self addWeatherViewWithCity:city andWithTag:self.cityArr.count*kTag];
                 //保存城市数组
                 [[NSUserDefaults standardUserDefaults] setObject:self.cityArr forKey:kCity];
             }else
             {
                 [MBProgressHUD showText:@"已有这个城市的天气" toView:self.view];
             }
-          
         }];
     }];
 }
@@ -252,7 +254,7 @@
     //创建天气页面
     ZYWeatherView *weather =[[ZYWeatherView alloc] initWithFrame:CGRectMake(width-self.view.width,0,self.scrollView.width, self.scrollView.height)];
     //设置tag
-    weather.tag = self.pageControl.numberOfPages*10;
+    weather.tag = self.pageControl.numberOfPages*kTag;
     [self.scrollView addSubview:weather];
 }
 
@@ -265,7 +267,7 @@
         
         if ([responseObject[@"HeWeather data service 3.0"][0][@"status"] isEqualToString:@"unknown city"]) {
             [MBProgressHUD showError:@"找不到您的城市" toView:self.view];
-            
+            //从城市数组中删除
             [self.cityArr removeObject:city];
             //删除加入的weather
             [weather removeFromSuperview];

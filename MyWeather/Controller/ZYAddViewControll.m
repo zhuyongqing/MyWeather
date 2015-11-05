@@ -39,11 +39,11 @@
 #pragma mark - 搜索按钮点击
 - (void)seachBtnAction
 {
-    
-    //给block赋值
+   
     [self seachResult];
 }
 
+//回调的block
 - (void)seachCityName:(cityName)cityName
 {
     self.cityName = cityName;
@@ -76,9 +76,7 @@
         self.cityName([self.seach.text substringToIndex:index]);
     }else
         self.cityName(self.seach.text);
-    
-  
-    
+
 }
 
 #pragma mark - 懒加载
